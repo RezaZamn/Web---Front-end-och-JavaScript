@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bish-Bosh</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Bish-Bosh 
+        </h1>
+    </header>
+
+    <main>
+        <div>
+        <p class="text">
+            Bish-Bosh listar alla tal mellan Bish siffra och Bosh siffra tal som ni kommer mata in, med vissa undantag: Om talet är
+            jämnt delbart med Bish siffra listas 'Bish' istället för talet. Och Om talet är jämnt delbart med Bosh siffra listas 'Bosh' istället
+            för talet. Om talet är jämnt delbart med både med Bish och Bosh skrivs 'Bish-Bosh' istället för talet.
+            Exempel (Bish = 3) och (Bosh = 4): 1, 2, Bish, Bosh, 5, Bish, 7, Bosh, Bish, 10, 11, Bish-Bosh, 13, 14, Bish . . .
+
+
+        </p>
+    </div>
+ 
+    <div class="input">
+        <label for="bish">Bish siffra</label>
+        <input type="number" id="bish" min="1" required><br>
+
+        <label for= "bosh">Bosh siffra</label>
+        <input type="number" id="bosh" min="1" required><br>
+
+        <label for="count">Loop tal</label>
+        <input type="number" id="count" min="1" required><br>
+
+    </div>
+
+        <button id="startButton">Starta</button>     
+      
+        <div id="result"></div>
+
+    </main> 
+
+    <footer>
+        <p>&copy; Created by Reza Zaman 2024 </p>
+    </footer>
+
+    <script src="Javascript.js"></script>
+
+</body>
+
+</html>

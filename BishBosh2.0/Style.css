@@ -1,0 +1,84 @@
+ 
+ body{
+    background-color: #f1efd6;               /* Sätter bakgrund färgen */
+    padding-bottom: 10px;
+  
+   }
+
+
+.text{
+    text-align: center;       /* Centerar texten */
+    font-size: 18px;
+    color: #613504;
+    max-width: 1200px;       /* Anger en maximal bredd för texten */
+    margin: 0 auto;          /* Centrerar blocket horisontellt */
+    padding-bottom: 20px;    /* Avstånd från nedre block */
+    padding-top: 10px;       /* Avstånd från toppen */
+    margin-bottom: 30px;
+    }
+
+  header{
+    text-align: center;
+    background-color: rgb(241, 219, 171); 
+    color: rgb(244, 153, 41); 
+    padding: 10px;        
+    max-width: 100%;
+      }  
+      
+  label {
+        font-size: 20px;      /* Ändrar storlek på texten */
+        color: #e8b165;     /* Ändrar textfärg, t.ex. till en orange-röd färg */
+        font-weight: bold;    /* Valfritt: gör texten fet */
+    }
+
+
+    input {
+      font-size: 16px;        /* Ändrar fontstorlek */
+      color: #333;            /* Ändrar textfärg */
+      background-color: #f0f0f0; /* Ändrar bakgrundsfärg på fältet */
+      border: 2px solid #ccc; /* Ändrar kantlinje och färg */
+      border-radius: 5px;     /* Rundar hörnen */
+      padding: 8px;           /* Lägger till inre utrymme */
+      width: 150px;           /* Ställer in bredd på fältet */
+      margin-left: 90px;
+      display: flex;
+      flex-direction: column;
+     align-items: flex-start; /* Gör så att alla element är vänsterjusterade */
+     gap: 10px; /* Skapar utrymme mellan elementen */
+  }
+
+
+  button {
+    font-size: 16px;                /* Ändrar storleken på texten */
+    color: #ffffff;               /* Ändrar textfärgen */
+    background-color: #007bff;    /* Ändrar bakgrundsfärgen */
+    border: none;                  /* Tar bort kantlinjen */
+    border-radius: 5px;           /* Rundar hörnen */
+    padding: 10px 25px;           /* 10px uppe/nere, 25px vänster/höger) */
+    margin-left: 130px;          /* Justera värdet för att flytta knappen mer eller mindre */
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    position: sticky;
+    background-color: rgb(241, 219, 171);  /* Bakgrundsfärg för foten */
+    color: rgb(244, 153, 41);               /* Bakgrundsfärg för texten */
+    text-align:center;                      /* Centrerar texten */ 
+    padding: 0;                            /* Skapar utrymme mellan elements innehåll och dess kantlinje*/
+    bottom: 10px;                            /* Hur långt ner ska elementen placeras från botten*/ 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;               /* Horisontell centrering */
+     }
+
+
+     #result {
+      font-size: 20px;    /* Ändra textstorlek */
+      color: #dd6d18;        /* Ändra textfärg */
+      font-family: Arial, sans-serif; /* Ändra typsnitt */
+      line-height: 1.5;   /* Ändra radavstånd för bättre läsbarhet */
+      margin-left: 40px;
+  }
+  

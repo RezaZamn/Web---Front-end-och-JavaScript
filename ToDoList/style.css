@@ -1,0 +1,51 @@
+
+.purchased {
+    text-decoration: line-through;     /* Stryker över inköpta varor */
+    color: rgb(161, 103, 103);       /* Ändra färgen för inköpta varor */
+}
+
+body{
+    background-color: #cdecfa;               /* Sätter bakgrund färgen */
+  
+   }
+
+   h1{
+    background-color: #91d8fc;
+    text-align: center;
+    color: #18a0f4;
+    font-family:Arial, Helvetica, sans-serif;
+   }
+
+
+   input {
+    font-size: 22px;      /* Ändrar storlek på texten */
+    color: #74c6ef;     /* Ändrar textfärg */
+    font-weight:100;    /* gör texten fet */
+    
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;   /* Justerar detta för att flytta ner elementen på sidan */
+}
+
+
+button {
+    font-size: 17px;              /* Ändrar storleken på texten */
+    color: #ffffff;               /* Ändrar textfärgen */
+    background-color: #007bff;    /* Ändrar bakgrundsfärgen */
+    border: none;                  /* Tar bort kantlinjen */
+    border-radius: 5px;           /* Rundar hörnen */
+    padding: 8px 28px;           /* 8px uppe/nere, 28px vänster/höger) */
+    margin-top: 4px;
+
+}   
+
+ul{
+    font-size: 26px;
+    color: #0856a9;
+   
+}
+    
